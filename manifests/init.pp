@@ -5,7 +5,7 @@ class symfony {
 	# yes, we need git
 	package { "git-core": }
 	
-	# remove symfony dir
+	# remove symfony dir if it already exists
 	file { "${symfony::params::root_dir}":
 		ensure  => absent,
 	}
