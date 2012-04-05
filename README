@@ -1,1 +1,4 @@
-== Setup a Symfony Project with Puppet ==
+== Setup for Symfony2 ==
+
+Clone Symfony2 Project and setup system for Symfony2 development with Puppet
+
